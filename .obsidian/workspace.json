@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "309d305c9829c277",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f53366bd26c0de8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a0d8b976d576e9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0000/0 Prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0 Prompt"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11e24b22b0249f91",
+    "type": "split",
+    "children": [
+      {
+        "id": "e402bf1ff494f854",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e28f45fbd28cd85c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "347c7b58aaeb7fa7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4b37155ac208c178",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5a0e1cd53029e3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f9c391107351dd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5642125927629af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0000/0 Prompt.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 0 Prompt"
+            }
+          },
+          {
+            "id": "7e21c4cdd73fd3b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0000/0 Prompt.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 0 Prompt"
+            }
+          },
+          {
+            "id": "846627b6d9b7c67c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "80ea6ac2820d2a0e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9ffd2ce0486fe672",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0000/0 Prompt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 0 Prompt"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9a0d8b976d576e9f",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "01_Atomic_Core/11_Agency_Hierarchy.md",
+    "01_Atomic_Core/04_Finance_Module.md",
+    "01_Atomic_Core/03_Booking_Engine.md",
+    "01_Atomic_Core/10_Desktop_App_Spec.md",
+    "01_Atomic_Core/09_POS_FastBooking.md",
+    "0000/0 Prompt.md",
+    "02_Business_Logic/03_Lifecycle_Events.md",
+    "01_Atomic_Core/08_Communication_Hub.md",
+    "01_Atomic_Core/07_Advanced_Tools.md",
+    "01_Atomic_Core/06_Staff_Auth.md",
+    "99_Future_Roadmap/01_Marketplace_Expansion.md",
+    "02_Business_Logic/02_Pricing_Matrix.md",
+    "02_Business_Logic/01_Subscription_Tiers.md",
+    "01_Atomic_Core/05_Storage_Delivery.md",
+    "01_Atomic_Core/02_Resource_Module.md",
+    "01_Atomic_Core/01_Identity_Module.md",
+    "00_Global_Manifesto/03_Compliance_Rules.md",
+    "00_Global_Manifesto/02_Global_Constants.md",
+    "00_Global_Manifesto/01_North_Star_Metrics.md",
+    "0000",
+    "99_Future_Roadmap",
+    "02_Business_Logic",
+    "01_Atomic_Core",
+    "00_Global_Manifesto"
+  ]
+}
