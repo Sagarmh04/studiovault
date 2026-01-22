@@ -13,3 +13,16 @@
 ## 3. Local AI Culling
 * **Deferred Item:** Client-side ML models for "Blink Detection" and "Focus Score".
 * **Reason:** High engineering effort; classified as Phase 2 "Moat" feature.
+## 4. Atomic Phase (Deferred)
+* **Advanced Roles Engine:** Custom roles (Marketing, Intern).
+* **Offline Data Versioning:** Delta Sync for POS.
+* **Local AI Culling:** Desktop ML models.
+
+## 5. Agency Phase (Deferred / To Be Deep Dived)
+* **Asset Maintenance (Service Logs):**
+    * *Status:* DEFERRED.
+    * *Requirement:* Tracking "Service History" of lenses and auto-blocking gear based on usage hours.
+    * *Reason:* Complexity risk. Manual "Mark as Damaged" is sufficient for Phase 1.
+* **The Approval Engine:** (HQ approving refunds).
+* **Staff Roaming:** (Assigning Branch A staff to Branch B).
+* **Custom Domain:** (White-labeling).
