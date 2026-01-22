@@ -2,8 +2,10 @@
 
 ## 1. Free Tier ("The Hobbyist")
 * **Active Project Cap:** Max 3 Concurrent Active Projects.
+    * *Logic:* Includes BOTH Online (Cloud) and Offline (Walk-in) projects.
     * *Unlock:* Must Archive or Complete a project to add a new one.
-* **Storage:** 2GB (Proxies Only - No RAW).
+* **Storage:** 2GB (Strict Proxy Only).
+    * *Constraint:* 100% blocked from uploading .ARW/.CR2 (RAW) files. Must use Desktop App "Smart Select" to generate proxies.
 * **Booking:** Online Booking allowed (Platform Fee applied).
 * **Identity:** "Powered by StudioVault" Badge in the footer.
 
@@ -15,4 +17,4 @@
 
 ## 3. Add-Ons (Wallet Deducted)
 * **Extra Storage:** ₹4.5 / GB / Month.
-* **SMS Pack:** ₹0.20 / SMS (after free quota).
+* **SMS Pack:** ₹0.20 / SMS (after free quota of ~60).

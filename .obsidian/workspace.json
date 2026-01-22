@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0000/0 Prompt.md",
+                "file": "01_Atomic_Core/16_RBAC_Roles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Prompt"
+              "title": "16_RBAC_Roles"
             }
           }
         ]
@@ -185,24 +185,30 @@
   },
   "active": "9a0d8b976d576e9f",
   "lastOpenFiles": [
+    "01_Atomic_Core/01_Identity_Module.md",
+    "01_Atomic_Core/16_RBAC_Roles.md",
+    "99_Future_Roadmap/03_AI_Local_Culling.md",
+    "01_Atomic_Core/14_Vendor_Network.md",
+    "01_Atomic_Core/13_Smart_Contracts.md",
+    "01_Atomic_Core/12_Guest_Portal.md",
+    "99_Future_Roadmap/02_Technical_Debt_Pending.md",
+    "99_Future_Roadmap/01_Marketplace_Expansion.md",
+    "01_Atomic_Core/09_POS_FastBooking.md",
+    "02_Business_Logic/01_Subscription_Tiers.md",
+    "01_Atomic_Core/04_Finance_Module.md",
+    "00_Global_Manifesto/03_Compliance_Rules.md",
+    "0000/0 Prompt.md",
     "Untitled.canvas",
     "01_Atomic_Core/11_Agency_Hierarchy.md",
-    "01_Atomic_Core/04_Finance_Module.md",
     "01_Atomic_Core/03_Booking_Engine.md",
     "01_Atomic_Core/10_Desktop_App_Spec.md",
-    "01_Atomic_Core/09_POS_FastBooking.md",
-    "0000/0 Prompt.md",
     "02_Business_Logic/03_Lifecycle_Events.md",
     "01_Atomic_Core/08_Communication_Hub.md",
     "01_Atomic_Core/07_Advanced_Tools.md",
     "01_Atomic_Core/06_Staff_Auth.md",
-    "99_Future_Roadmap/01_Marketplace_Expansion.md",
     "02_Business_Logic/02_Pricing_Matrix.md",
-    "02_Business_Logic/01_Subscription_Tiers.md",
     "01_Atomic_Core/05_Storage_Delivery.md",
     "01_Atomic_Core/02_Resource_Module.md",
-    "01_Atomic_Core/01_Identity_Module.md",
-    "00_Global_Manifesto/03_Compliance_Rules.md",
     "00_Global_Manifesto/02_Global_Constants.md",
     "00_Global_Manifesto/01_North_Star_Metrics.md",
     "0000",
