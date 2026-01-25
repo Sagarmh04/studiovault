@@ -5,6 +5,13 @@
 * `01_North_Star_Metrics.md` - Key success indicators (Active Projects, Retention).
 * `02_Global_Constants.md` - Limits (Storage Caps), Quotas (SMS), Branding Rules.
 * `03_Compliance_Rules.md` - Nodal Account logic (194O), Privacy Laws.
+* 04_Tech_Stack.md - all the information about the tech stack
+* 05_Backup_Disaster_Recovery.md - Backup policy, restore guarantees, deletion safety.
+* 06_Search_Indexing_Scale.md - Search guarantees, indexing rules, branch-safe retrieval.
+* 07_Observability_Incident_Response.md - Uptime targets, SEV policy, monitoring + postmortems.
+* 08_Security_Threat_Model.md - Threat priorities, access hardening, fraud controls.
+* 09_Policy_Registry.md - Canonical enforcement + Terms mapping truth table.
+* 10_Roadmap_Versioning_Governance.md - Change control, version discipline, rollout rules.
 
 ## 📂 01_Atomic_Core (The Studio OS)
 * `01_Identity_Module.md` - Org/Branch structure, Subdomains.
@@ -27,6 +34,8 @@
 * `01_Subscription_Tiers.md` - Free vs Pro limits.
 * `02_Pricing_Matrix.md` - (Placeholder for SKU costs).
 * `03_Lifecycle_Events.md` - Downgrades, Data Retention, Deletion.
+* 06_Disputes_Refunds_Chargebacks.md - Refund authority, thresholds, dispute + chargeback state machine.
+* 07_Onboarding_Activation.md - Activation funnel, time-to-value targets, upgrade triggers.
 
 ## 📂 03_Global_Logic (The Empire Governance)
 * `01_Command_Center.md` - Global Analytics, Ticker, Billing Widget.
@@ -38,11 +47,23 @@
 * `07_Agency_Admin_Tools.md` - Visual Booking, Payroll Engine.
 * `08_Integration_Architecture.md` - WhatsApp/Payment/Storage technical safeguards.
 * `04_Asset_Logistics.md` - Inter-branch gear transfers.
+* 10_Support_Escalation_Model.md - Support tiers, SEV routing, escalation workflow.
+
 
 ## 📂 04_Enterprise_Modules (The Strategic Moats)
 * `01_Marketing_Engine.md` - Campaigns, Drip Sequences, ROI.
 * `02_Production_Workflow.md` - Video Versioning, Client Review.
 * `03_Vendor_Portal.md` - Freelancer Login, Raw Ingest.
+
+📂 05_Database_Layer (The Data Spine)
+* 01_Core_Entities.md - Canonical entity map (Org, Branch, Projects, Invoices).
+* 02_Schema_Tables.md - Full SQL/Drizzle schema source of truth.
+* 03_Indexing_Performance.md - Required indexes + query guardrails.
+* 04_Data_Retention_Deletion.md - Trash, hard delete, overdue enforcement timelines.
+* 05_Sharding_Tenant_Strategy.md - Shared vs dedicated DB strategy for scale.
+* 06_Offline_Sync_Model.md - Desktop sync queue + conflict resolution rules.
+* 07_Audit_Log_Schema.md - Immutable security + financial logging model.
+
 
 ## 📂 99_Future_Roadmap (The Icebox)
 * `04_Pending_Scope.md` - Deferred items (Approval Engine, Staff Roaming).
