@@ -117,3 +117,28 @@ StudioVault is an invoicing + workflow SaaS platform.
 - Direct regulated settlement to studio accounts
 
 This architecture avoids RBI stored-value classification risk.
+
+## Tax Location Logic (Global-Compatible)
+
+StudioVault supports tax calculation based on jurisdiction rules.
+
+### Phase 1 Principle
+Tax bucket selection depends on:
+
+- Branch Location (Seller jurisdiction)
+- Client Location (Supply jurisdiction)
+
+### India GST Example (Default Helper)
+- Same State → CGST + SGST
+- Different State → IGST
+
+### Global Generic Rule
+If jurisdiction data is missing:
+
+- System assumes same-jurisdiction by default
+- Invoice UI displays: "Tax Location Not Specified"
+- Owner may override manually
+
+### Future Expansion
+Tax engines will remain modular so other countries (VAT, Sales Tax)
+can be added without redesigning invoices.

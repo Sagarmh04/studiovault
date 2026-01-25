@@ -122,3 +122,16 @@ Software breaks.
 Trust breaks harder.
 
 Support is the bridge between failure and forgiveness.
+
+## Support Operations (Phase 1)
+
+Support is handled through:
+
+- In-app ticket dashboard
+- Email-based communication linked to tickets
+
+Tickets include:
+- Category (Payments, Booking, Upload, Access)
+- Severity level
+- Response SLA by tier
+

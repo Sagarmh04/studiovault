@@ -155,3 +155,32 @@ Offline is not “lack of internet.”
 Offline is distributed systems.
 
 StudioVault sync is strict, boring, and correct.
+
+
+## Offline Booking Restriction (Conflict Prevention)
+
+Rule:
+If a Branch enables Online Booking, Offline-first Clerk Booking is disabled.
+
+Reason:
+Online booking requires real-time locking.
+Offline bookings create unavoidable race conditions.
+
+Enforcement:
+- Desktop app must verify server connectivity before allowing clerk bookings
+- If offline, booking UI shows:
+  "Offline bookings disabled for this branch. Connect to proceed."
+
+## Sync Conflict UX State (Required)
+
+When server rejects an offline booking due to resource conflict:
+
+Desktop must enter state:
+"Sync Conflict: Rebooking Required"
+
+Behavior:
+- Booking marked invalid
+- Receptionist prompted to reassign assets or reschedule
+- System never silently drops the event
+
+

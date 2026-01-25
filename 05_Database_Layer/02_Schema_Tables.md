@@ -287,4 +287,18 @@ Deferred tables:
 - video_version_stacks
 - approval_requests
 
-These enter only after Phase 1 stability.
+## ID Generation Doctrine (Offline-Safe)
+
+All entity IDs are generated client-side using UUID v7.
+
+Format:
+- `prj_<uuidv7>
+- `inv_<uuidv7>
+- `cli_<uuidv7>
+
+Reason:
+- Desktop must create records offline
+- No server round-trip required
+- IDs remain time-sortable and collision-free
+
+Cloud accepts IDs as submitted.

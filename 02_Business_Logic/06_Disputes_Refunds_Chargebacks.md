@@ -161,3 +161,19 @@ Chargebacks are war.
 Governance is survival.
 
 StudioVault enforces fairness without allowing abuse.
+
+## Dispute Evidence Packet (Phase 1 Requirement)
+
+When a chargeback is opened, StudioVault generates an evidence export:
+
+Includes:
+- Signed contract PDFs
+- Invoice + payment receipt
+- Delivery portal access logs
+- Download completion events
+- Chat transcript (project-scoped)
+- Audit log timeline
+
+Purpose:
+Provide studios with a single submission bundle for payment provider disputes.
+
