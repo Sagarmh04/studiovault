@@ -99,6 +99,10 @@ Key Properties:
 Activation Rule:
 - Becomes Active only after acceptance/payment/offline confirmation
 
+Projects are contractual scheduled workflows.  
+Walk-in counter transactions are stored separately as POS Orders.
+
+
 ---
 
 ### Package (Sellable Service Unit)

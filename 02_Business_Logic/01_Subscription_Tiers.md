@@ -2,7 +2,7 @@
 
 ## 1. Free Tier ("The Hobbyist")
 * **Active Project Cap:** Max 3 Concurrent Active Projects.
-    * *Logic:* Includes BOTH Online (Cloud) and Offline (Walk-in) projects.
+    * *Logic:* Includes scheduled Projects only (event bookings). POS walk-ins do not count..
     * *Unlock:* Must Archive or Complete a project to add a new one.
 * **Storage:** 2GB (Strict Proxy Only).
     * *Constraint:* 100% blocked from uploading .ARW/.CR2 (RAW) files. Must use Desktop App "Smart Select" to generate proxies.

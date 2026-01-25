@@ -139,6 +139,8 @@ If jurisdiction data is missing:
 - Invoice UI displays: "Tax Location Not Specified"
 - Owner may override manually
 
-### Future Expansion
+Tax calculation is jurisdiction-driven via modular tax adapters.  
+India GST is the default adapter, not the core assumption.
+
 Tax engines will remain modular so other countries (VAT, Sales Tax)
 can be added without redesigning invoices.

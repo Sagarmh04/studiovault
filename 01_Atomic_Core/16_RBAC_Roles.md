@@ -18,15 +18,14 @@
 ## 3. The Core Permission Matrix (Atomic)
 *These are the Fixed System Roles required for basic studio operations.*
 
-| Feature | Owner | Manager | Clerk | Photographer | Accountant |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **POS (Walk-in)** | ✅ Full | ✅ Full | ✅ Full | ❌ | ❌ |
-| **Bookings** | ✅ Full | ✅ Full | ✅ Create Only | 👁 View Assigned | ❌ |
-| **Calendar** | ✅ Full | ✅ Full | 👁 View Only | 👁 View Assigned | ❌ |
-| **Inventory** | ✅ Full | ✅ Full | 👁 View Availability | 👁 View Check-out | ❌ |
-| **Finance (Revenue)** | ✅ Full | 👁 Report Only | ❌ | ❌ | 👁 View All |
-| **Wallet/Payouts** | ✅ Full | ❌ | ❌ | ❌ | ❌ |
-| **Settings** | ✅ Full | ❌ | ❌ | ❌ | ❌ |
+| Feature               | Owner  | Manager        | Clerk                | Photographer      | Accountant  |
+| :-------------------- | :----- | :------------- | :------------------- | :---------------- | :---------- |
+| **POS (Walk-in)**     | ✅ Full | ✅ Full         | ✅ Full               | ❌                 | ❌           |
+| **Bookings**          | ✅ Full | ✅ Full         | ✅ Create Only        | 👁 View Assigned  | ❌           |
+| **Calendar**          | ✅ Full | ✅ Full         | 👁 View Only         | 👁 View Assigned  | ❌           |
+| **Inventory**         | ✅ Full | ✅ Full         | 👁 View Availability | 👁 View Check-out | ❌           |
+| **Finance (Revenue)** | ✅ Full | 👁 Report Only | ❌                    | ❌                 | 👁 View All |
+| **Settings**          | ✅ Full | ❌              | ❌                    | ❌                 | ❌           |
 
 ## 4. Future Extensibility: The Roles Engine
 * **Status:** PENDING / FUTURE SCOPE.

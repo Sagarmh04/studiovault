@@ -1,33 +1,105 @@
-# POS & Fast Booking Module (Walk-In)
+# POS & Walk-In Sales Module (Instant Counter Transactions)
 
 ## 1. Context & Scope
-* **Target User:** Receptionist/Clerk (Offline).
-* **Platform:** Strictly **Desktop Application** (Electron). Web version disables this feature.
-* **Goal:** Speed. Zero latency.
-* **Data Principle:** **Append Only.**
-    * *Logic:* Offline transactions are strictly chronological. Edits are created as new "Correction Entries" rather than overwriting old ones to prevent sync conflicts. Deletion is allowed but logged as a "Voided Transaction".
 
-## 2. The Interface Logic
+POS Walk-In is NOT a booking system.
+
+It is a counter-sale engine designed for:
+
+- Passport photos
+- Stamp prints
+- Frames and small merch
+- 5-minute studio services
+
+This module is operationally different from event bookings.
+
+* **Target User:** Receptionist / Clerk
+* **Platform:** Desktop Application only (Electron)
+* **Goal:** Maximum speed, zero scheduling complexity
+* **Core Principle:** Walk-ins do NOT create Projects
+
+Walk-In sales never:
+
+- enter Inquiry or Booking lifecycle
+- lock the calendar
+- count toward Active Project caps
+- generate delivery portals
+- require advance payments
+
+They are instant service transactions.
+
+---
+
+## 2. Data Principle: Append-Only Sales Ledger
+
+POS transactions are chronological and immutable.
+
+* Corrections are new entries, not overwrites
+* Deletions are logged as "Voided Transactions"
+
+Reason:
+
+- Prevents sync conflicts
+- Preserves financial auditability
+
+---
+
+## 3. Interface Logic (Counter Speed UX)
+
 * **Selector Toggle:**
-    * *Condition:* Checks Inventory. If Merch exists -> Show "Merch | Photo Services" Toggle.
-    * *Default:* "Photo Services".
-* **Fast Packages (Non-Linear Pricing):**
-    * *Logic:* Prices are **Pre-defined**, not calculated.
-    * *Example:* "16 Passport" = ₹200. "32 Passport" = ₹350.
-    * *Resource Check:* Hidden background check. Warns only if conflict exists.
+  - If Merch exists → show toggle: `Merch | Photo Services`
+  - Default → `Photo Services`
 
-## 3. The Print-to-Bill Workflow
-* **Step 1: Package Selection.** Clerk selects "16 Passport Photos".
-* **Step 2: Layout & Orientation.**
-    * *Input:* User selects the physical cut/arrangement.
-    * *Options (Dynamic):* "4x4 Grid", "8x2 Strip", "16x1 Strip".
-    * *Preview:* Real-time visual representation of the paper output.
-* **Step 3: Print Command.** User clicks "Print" -> App opens OS Print Dialog.
-* **Step 4: Verification Loop.**
-    * App asks: "Did the print complete successfully?"
-    * *Yes:* Transaction is Billed. Revenue recorded.
-    * *No:* Transaction cancelled (No revenue recorded).
+* **Fast Packages (Predefined Pricing):**
+  - Prices are fixed, not calculated dynamically
+  - Example:
+    - "16 Passport Photos" = ₹200
+    - "32 Passport Photos" = ₹350
 
-## 4. Custom Billing (Ad-Hoc)
-* **Custom Bill Button:** Allows manual entry of Service Name, Price Override, and Merch.
-* **Inheritance:** "Included/Excluded" metadata from the base package is preserved even if price is manually changed.
+No quote negotiation exists in POS.
+
+---
+
+## 4. Print-to-Bill Workflow
+
+Walk-In services often require instant printing.
+
+Workflow:
+
+1. Clerk selects package ("16 Passport Photos")
+2. User selects layout:
+   - 4×4 Grid
+   - 8×2 Strip
+   - 16×1 Strip
+3. App opens OS Print Dialog
+4. Verification Loop:
+   - "Did printing succeed?"
+
+Results:
+
+- Yes → Transaction billed + receipt generated
+- No → Transaction cancelled (no revenue recorded)
+
+---
+
+## 5. Custom Billing (Ad-Hoc Sales)
+
+* Clerk can create a manual bill:
+
+- Service Name
+- Price Override
+- Optional Merch items
+
+Metadata from base packages is preserved for consistency.
+
+---
+
+## 6. Financial Output
+
+POS produces:
+
+- Instant Receipt Invoice
+- Cash/Card/UPI payment entry (optional)
+- No Project creation
+
+POS is a transaction system, not a workflow system.
