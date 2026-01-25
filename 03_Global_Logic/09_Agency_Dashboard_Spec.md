@@ -33,4 +33,14 @@
 ## 5. The Production Tab (Kanban)
 * **Visual:** Drag-and-drop board for Project Status.
 * **Lanes:** `Pre-Production` -> `Shoot` -> `Post-Processing` -> `Review` -> `Completed`.
-* **Integration:** Dragging a card updates the `Project_Status` in the database and triggers Client Notifications.
+* **Integration:** Dragging a card updates the `Project_Status` in the database.
+
+## 6. The Client Insights Tab (Gallery Analytics)
+* **Note:** *High Overhead Feature.* Distinct from the standard Delivery Portal.
+* **Goal:** Sales intelligence based on client behavior.
+* **Data Visualization (The Heatmap):**
+    * **User Tracking:** "Client X viewed the gallery 5 times."
+    * **Engagement:** "Downloaded 'Couple Portraits' folder, ignored 'Family' folder."
+    * **Time Spent:** "Spent 4 minutes viewing Photo #045."
+* **Actionable Insight:**
+    * Suggests: "Pitch a Framed Print for Photo #045 (High Engagement)."
