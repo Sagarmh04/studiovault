@@ -45,9 +45,9 @@ Active Projects are the unit that consumes system capacity
 
 A Project becomes ACTIVE when any of the following occurs:
 
-Offline Flow (POS / Clerk Booking)
-- A staff member creates and confirms a booking manually
-→ Immediate ACTIVE state (hard calendar lock)
+- Manual Staff Event Booking → ACTIVE
+    
+- POS Walk-in Orders → never ACTIVE
 
 Online Flow (Inquiry → Booking)
 - Photographer explicitly accepts the project
