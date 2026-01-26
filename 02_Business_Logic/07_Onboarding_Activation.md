@@ -63,8 +63,8 @@ Booking engine becomes usable immediately.
 
 Paths:
 
-1. Offline Fast Booking (Clerk)
-- Walk-in entry creates Active Project immediately
+1. Manual Staff Booking (Event) creates Active Project
+- POS Walk-ins do not create projects
 
 2. Online Inquiry Flow
 - Client requests quote → studio accepts → project becomes Active

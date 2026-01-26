@@ -15,6 +15,6 @@
 * **Booking:** Lower/Zero Platform Fee (Configurable).
 * **Identity:** White-label (Badge removed).
 
-## 3. Add-Ons (Wallet Deducted)
+## 3. Add-Ons (Invoiced Monthly)
 * **Extra Storage:** ₹4.5 / GB / Month.
 * **SMS Pack:** ₹0.20 / SMS (after free quota of ~60).

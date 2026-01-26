@@ -18,7 +18,7 @@
         * If Org has >1 Branch -> Show "Select Location" Splash Screen.
 
 ## 3. Roles (RBAC)
-* **Owner:** Global access. Can delete Org. Access to Wallet.
+* **Owner:** Global access. Can delete Org.
 * **Branch Manager:** Scoped to Branch. Can manage Staff & Inventory. No access to other branches.
 * **Staff/Photographer:** Scoped to Assigned Jobs. View-only on Calendar.
 * **Freelancer:** Transient access. Can only view specific "Job Cards" they are tagged in.
